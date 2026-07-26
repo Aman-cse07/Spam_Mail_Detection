@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Mail Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📧 AI Spam Mail Detector</h1>
+
+    <textarea id="message" placeholder="Paste your email/message here..."></textarea>
+
+    <button onclick="predictSpam()">Detect Message</button>
+
+    <div id="result"></div>
+
+    <div id="feedbackSection" style="display:none;">
+        <h3>Was prediction correct?</h3>
+
+        <button class="correct" onclick="sendFeedback('ham')">
+            Mark as Ham
+        </button>
+
+        <button class="spam" onclick="sendFeedback('spam')">
+            Mark as Spam
+        </button>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
