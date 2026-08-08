@@ -4,6 +4,12 @@ A Machine Learning project that detects whether an email or message is **Spam** 
 
 ---
 
+## 🌐 Live Server
+
+👉 https://spam-mail-detection-orpin.vercel.app/
+
+---
+
 ## 📌 Project Overview
 
 Spam emails are unwanted messages that often contain advertisements, phishing links, scams, or malicious content. This project uses **Machine Learning** to automatically classify incoming messages as **Spam** or **Ham**, helping users filter unwanted emails efficiently.
@@ -14,36 +20,36 @@ The model is trained on a labeled dataset of spam and ham messages and predicts 
 
 ## 🎯 Objectives
 
-- Detect spam messages accurately.
-- Learn the basics of NLP and text preprocessing.
-- Apply Machine Learning algorithms for text classification.
-- Build a simple and useful real-world AI application.
+* Detect spam messages accurately.
+* Learn the basics of NLP and text preprocessing.
+* Apply Machine Learning algorithms for text classification.
+* Build a simple and useful real-world AI application.
 
 ---
 
 ## 🚀 Features
 
-- 📩 Detects Spam and Ham emails/messages
-- 🤖 Machine Learning based classification
-- 📝 Text preprocessing using NLP
-- ⚡ Fast prediction
-- 📊 Easy to understand workflow
-- 💻 Beginner-friendly project
+* 📩 Detects Spam and Ham emails/messages
+* 🤖 Machine Learning based classification
+* 📝 Text preprocessing using NLP
+* ⚡ Fast prediction
+* 📊 Easy to understand workflow
+* 💻 Beginner-friendly project
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| Pandas | Data Handling |
-| NumPy | Numerical Operations |
-| Scikit-learn | Machine Learning |
-| NLTK / Regex | Text Processing |
-| TfidfVectorizer | Feature Extraction |
+| Technology              | Purpose                  |
+| ----------------------- | ------------------------ |
+| Python                  | Programming Language     |
+| Pandas                  | Data Handling            |
+| NumPy                   | Numerical Operations     |
+| Scikit-learn            | Machine Learning         |
+| NLTK / Regex            | Text Processing          |
+| TfidfVectorizer         | Feature Extraction       |
 | Multinomial Naive Bayes | Classification Algorithm |
-| Jupyter Notebook | Development Environment |
+| Jupyter Notebook        | Development Environment  |
 
 ---
 
@@ -88,10 +94,10 @@ data = pd.read_csv("mail_data.csv")
 
 ### Step 3: Data Preprocessing
 
-- Handle missing values
-- Convert labels into numerical values
-- Clean the text
-- Remove unnecessary characters
+* Handle missing values
+* Convert labels into numerical values
+* Clean the text
+* Remove unnecessary characters
 
 ---
 
@@ -129,8 +135,8 @@ MultinomialNB()
 
 Enter a new message and the model predicts:
 
-- 📩 Spam
-- ✅ Ham (Not Spam)
+* 📩 Spam
+* ✅ Ham (Not Spam)
 
 ---
 
@@ -168,11 +174,11 @@ Multinomial Naive Bayes is one of the most popular algorithms for text classific
 
 ### Advantages
 
-- Fast
-- Accurate for text data
-- Easy to implement
-- Works well for spam detection
-- Requires less training time
+* Fast
+* Accurate for text data
+* Easy to implement
+* Works well for spam detection
+* Requires less training time
 
 ---
 
@@ -180,11 +186,11 @@ Multinomial Naive Bayes is one of the most popular algorithms for text classific
 
 This project uses NLP techniques such as:
 
-- Text Cleaning
-- Lowercase Conversion
-- Tokenization
-- Removing Special Characters
-- Feature Extraction using TF-IDF
+* Text Cleaning
+* Lowercase Conversion
+* Tokenization
+* Removing Special Characters
+* Feature Extraction using TF-IDF
 
 ---
 
@@ -223,23 +229,23 @@ Ham (Not Spam)
 
 ## 💡 Applications
 
-- Email Spam Filtering
-- SMS Spam Detection
-- Social Media Message Filtering
-- Customer Support Systems
-- Cybersecurity
-- Fraud Detection
+* Email Spam Filtering
+* SMS Spam Detection
+* Social Media Message Filtering
+* Customer Support Systems
+* Cybersecurity
+* Fraud Detection
 
 ---
 
 ## 📌 Future Improvements
 
-- Deploy using Streamlit
-- Create a Flask/Django Web App
-- Improve accuracy using Deep Learning
-- Add a graphical user interface
-- Support multiple languages
-- Real-time email detection
+* Deploy using Streamlit
+* Create a Flask/Django Web App
+* Improve accuracy using Deep Learning
+* Add a graphical user interface
+* Support multiple languages
+* Real-time email detection
 
 ---
 
@@ -273,10 +279,10 @@ Open the Jupyter Notebook and execute all cells.
 
 The dataset generally contains two columns:
 
-| Label | Message |
-|--------|----------|
-| spam | Congratulations! You won a prize. |
-| ham | Let's meet tomorrow. |
+| Label | Message                           |
+| ----- | --------------------------------- |
+| spam  | Congratulations! You won a prize. |
+| ham   | Let's meet tomorrow.              |
 
 ---
 
@@ -311,22 +317,22 @@ Contributions are always welcome.
 
 By completing this project, you will learn:
 
-- Machine Learning Basics
-- Natural Language Processing (NLP)
-- Text Classification
-- TF-IDF Vectorization
-- Naive Bayes Algorithm
-- Model Training & Testing
-- Spam Detection System Development
+* Machine Learning Basics
+* Natural Language Processing (NLP)
+* Text Classification
+* TF-IDF Vectorization
+* Naive Bayes Algorithm
+* Model Training & Testing
+* Spam Detection System Development
 
 ---
 
 ## 📚 References
 
-- Scikit-learn Documentation: https://scikit-learn.org/
-- Pandas Documentation: https://pandas.pydata.org/
-- NumPy Documentation: https://numpy.org/
-- NLTK Documentation: https://www.nltk.org/
+* Scikit-learn Documentation: https://scikit-learn.org/
+* Pandas Documentation: https://pandas.pydata.org/
+* NumPy Documentation: https://numpy.org/
+* NLTK Documentation: https://www.nltk.org/
 
 ---
 
