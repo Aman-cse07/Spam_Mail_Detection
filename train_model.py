@@ -3,7 +3,7 @@ import pickle
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import PassiveAggressiveClassifier
+from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import accuracy_score
 
 # Load dataset
@@ -27,7 +27,7 @@ x_train, x_test, y_train, y_test = train_test_split(
 )
 
 # Train model
-model = PassiveAggressiveClassifier(max_iter=1000)
+model = SGDClassifier(loss='hinge', max_iter=1000, random_state=42)
 model.fit(x_train, y_train)
 
 # Prediction
